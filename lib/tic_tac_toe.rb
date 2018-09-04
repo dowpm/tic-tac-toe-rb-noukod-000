@@ -64,7 +64,11 @@ def won?(board)
        if win_combination.all? {|cell| board[cell] == "X"} or win_combination.all? {|cell| board[cell] == "O"}
          return win_combination
        end
+<<<<<<< HEAD
 
+=======
+       
+>>>>>>> 88c17246963aefe1addd7e4115889cf85326f035
       end
       return false
    end
